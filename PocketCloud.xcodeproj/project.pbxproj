@@ -8,20 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		8B1A7C3327AA0F59004A17D1 /* PocketCloudApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1A7C2327AA0F58004A17D1 /* PocketCloudApp.swift */; };
-		8B1A7C3427AA0F59004A17D1 /* PocketCloudApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1A7C2327AA0F58004A17D1 /* PocketCloudApp.swift */; };
 		8B1A7C3527AA0F59004A17D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1A7C2427AA0F58004A17D1 /* ContentView.swift */; };
-		8B1A7C3627AA0F59004A17D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1A7C2427AA0F58004A17D1 /* ContentView.swift */; };
-		8B1A7C3727AA0F59004A17D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B1A7C2527AA0F59004A17D1 /* Assets.xcassets */; };
-		8B1A7C3827AA0F59004A17D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B1A7C2527AA0F59004A17D1 /* Assets.xcassets */; };
+		8B1A7C4C27AA112B004A17D1 /* FileServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1A7C4B27AA112B004A17D1 /* FileServer.swift */; };
+		8B1A7C5F27AA2C08004A17D1 /* FileWebRouteCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1A7C5E27AA2C08004A17D1 /* FileWebRouteCollection.swift */; };
+		8B1A7C6427AA2DB4004A17D1 /* files.leaf in Resources */ = {isa = PBXBuildFile; fileRef = 8B1A7C6327AA2DB4004A17D1 /* files.leaf */; };
+		8B3AA38B27AAAC470022491B /* Vapor in Frameworks */ = {isa = PBXBuildFile; productRef = 8B3AA38A27AAAC470022491B /* Vapor */; };
+		8B3AA38E27AAAC5D0022491B /* Leaf in Frameworks */ = {isa = PBXBuildFile; productRef = 8B3AA38D27AAAC5D0022491B /* Leaf */; };
+		8B3AA39027AE40BC0022491B /* FileUploadPostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3AA38F27AE40BC0022491B /* FileUploadPostData.swift */; };
+		8B71857E27AAA50B00C03381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B71857D27AAA50B00C03381 /* Assets.xcassets */; };
+		8BA43B9327B4A8F900F2561F /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA43B9227B4A8F900F2561F /* Notifications.swift */; };
+		8BA43B9727B4B22D00F2561F /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA43B9627B4B22D00F2561F /* URL+Extensions.swift */; };
+		8BAC288027B0BCAD00E9CBCE /* FileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAC287F27B0BCAD00E9CBCE /* FileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8B1A7C2327AA0F58004A17D1 /* PocketCloudApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketCloudApp.swift; sourceTree = "<group>"; };
 		8B1A7C2427AA0F58004A17D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8B1A7C2527AA0F59004A17D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B1A7C2A27AA0F59004A17D1 /* PocketCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B1A7C3027AA0F59004A17D1 /* PocketCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B1A7C3227AA0F59004A17D1 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		8B1A7C4B27AA112B004A17D1 /* FileServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileServer.swift; sourceTree = "<group>"; };
+		8B1A7C5E27AA2C08004A17D1 /* FileWebRouteCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileWebRouteCollection.swift; sourceTree = "<group>"; };
+		8B1A7C6327AA2DB4004A17D1 /* files.leaf */ = {isa = PBXFileReference; lastKnownFileType = text; path = files.leaf; sourceTree = "<group>"; };
+		8B3AA38F27AE40BC0022491B /* FileUploadPostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileUploadPostData.swift; sourceTree = "<group>"; };
+		8B71857D27AAA50B00C03381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BA43B9227B4A8F900F2561F /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		8BA43B9627B4B22D00F2561F /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
+		8BAC287F27B0BCAD00E9CBCE /* FileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,13 +40,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8B1A7C2D27AA0F59004A17D1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				8B3AA38E27AAAC5D0022491B /* Leaf in Frameworks */,
+				8B3AA38B27AAAC470022491B /* Vapor in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,37 +51,66 @@
 		8B1A7C1D27AA0F58004A17D1 = {
 			isa = PBXGroup;
 			children = (
-				8B1A7C2227AA0F58004A17D1 /* Shared */,
-				8B1A7C3127AA0F59004A17D1 /* macOS */,
+				8B1A7C4A27AA10B0004A17D1 /* server */,
+				8B1A7C4727AA10A3004A17D1 /* app */,
+				8B71857D27AAA50B00C03381 /* Assets.xcassets */,
 				8B1A7C2B27AA0F59004A17D1 /* Products */,
+				8B1A7C4427AA1006004A17D1 /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		8B1A7C2227AA0F58004A17D1 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				8B1A7C2327AA0F58004A17D1 /* PocketCloudApp.swift */,
-				8B1A7C2427AA0F58004A17D1 /* ContentView.swift */,
-				8B1A7C2527AA0F59004A17D1 /* Assets.xcassets */,
-			);
-			path = Shared;
 			sourceTree = "<group>";
 		};
 		8B1A7C2B27AA0F59004A17D1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				8B1A7C2A27AA0F59004A17D1 /* PocketCloud.app */,
-				8B1A7C3027AA0F59004A17D1 /* PocketCloud.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8B1A7C3127AA0F59004A17D1 /* macOS */ = {
+		8B1A7C4427AA1006004A17D1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8B1A7C3227AA0F59004A17D1 /* macOS.entitlements */,
 			);
-			path = macOS;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B1A7C4727AA10A3004A17D1 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				8B1A7C2327AA0F58004A17D1 /* PocketCloudApp.swift */,
+				8B1A7C2427AA0F58004A17D1 /* ContentView.swift */,
+				8BAC287F27B0BCAD00E9CBCE /* FileView.swift */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		8B1A7C4A27AA10B0004A17D1 /* server */ = {
+			isa = PBXGroup;
+			children = (
+				8BA43B9527B4B22200F2561F /* extensions */,
+				8B1A7C6527AA3329004A17D1 /* Views */,
+				8B1A7C4B27AA112B004A17D1 /* FileServer.swift */,
+				8B1A7C5E27AA2C08004A17D1 /* FileWebRouteCollection.swift */,
+				8B3AA38F27AE40BC0022491B /* FileUploadPostData.swift */,
+				8BA43B9227B4A8F900F2561F /* Notifications.swift */,
+			);
+			path = server;
+			sourceTree = "<group>";
+		};
+		8B1A7C6527AA3329004A17D1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B1A7C6327AA2DB4004A17D1 /* files.leaf */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8BA43B9527B4B22200F2561F /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8BA43B9627B4B22D00F2561F /* URL+Extensions.swift */,
+			);
+			path = extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -88,31 +123,19 @@
 				8B1A7C2627AA0F59004A17D1 /* Sources */,
 				8B1A7C2727AA0F59004A17D1 /* Frameworks */,
 				8B1A7C2827AA0F59004A17D1 /* Resources */,
+				8BA43B9427B4AE8400F2561F /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "PocketCloud (iOS)";
+			packageProductDependencies = (
+				8B3AA38A27AAAC470022491B /* Vapor */,
+				8B3AA38D27AAAC5D0022491B /* Leaf */,
+			);
 			productName = "PocketCloud (iOS)";
 			productReference = 8B1A7C2A27AA0F59004A17D1 /* PocketCloud.app */;
-			productType = "com.apple.product-type.application";
-		};
-		8B1A7C2F27AA0F59004A17D1 /* PocketCloud (macOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8B1A7C3E27AA0F59004A17D1 /* Build configuration list for PBXNativeTarget "PocketCloud (macOS)" */;
-			buildPhases = (
-				8B1A7C2C27AA0F59004A17D1 /* Sources */,
-				8B1A7C2D27AA0F59004A17D1 /* Frameworks */,
-				8B1A7C2E27AA0F59004A17D1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "PocketCloud (macOS)";
-			productName = "PocketCloud (macOS)";
-			productReference = 8B1A7C3027AA0F59004A17D1 /* PocketCloud.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -128,9 +151,6 @@
 					8B1A7C2927AA0F59004A17D1 = {
 						CreatedOnToolsVersion = 13.3;
 					};
-					8B1A7C2F27AA0F59004A17D1 = {
-						CreatedOnToolsVersion = 13.3;
-					};
 				};
 			};
 			buildConfigurationList = 8B1A7C2127AA0F58004A17D1 /* Build configuration list for PBXProject "PocketCloud" */;
@@ -142,12 +162,15 @@
 				Base,
 			);
 			mainGroup = 8B1A7C1D27AA0F58004A17D1;
+			packageReferences = (
+				8B3AA38927AAAC470022491B /* XCRemoteSwiftPackageReference "vapor" */,
+				8B3AA38C27AAAC5C0022491B /* XCRemoteSwiftPackageReference "leaf" */,
+			);
 			productRefGroup = 8B1A7C2B27AA0F59004A17D1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				8B1A7C2927AA0F59004A17D1 /* PocketCloud (iOS) */,
-				8B1A7C2F27AA0F59004A17D1 /* PocketCloud (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -157,36 +180,46 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B1A7C3727AA0F59004A17D1 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8B1A7C2E27AA0F59004A17D1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8B1A7C3827AA0F59004A17D1 /* Assets.xcassets in Resources */,
+				8B71857E27AAA50B00C03381 /* Assets.xcassets in Resources */,
+				8B1A7C6427AA2DB4004A17D1 /* files.leaf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BA43B9427B4AE8400F2561F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "PATH=/opt/homebrew/bin:$PATH\nif [ -f ~/com.raywenderlich.swiftlint.yml ]; then\n  if which swiftlint >/dev/null; then\n    swiftlint --no-cache --config ~/com.raywenderlich.swiftlint.yml\n  fi\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8B1A7C2627AA0F59004A17D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B1A7C4C27AA112B004A17D1 /* FileServer.swift in Sources */,
+				8BA43B9327B4A8F900F2561F /* Notifications.swift in Sources */,
+				8B3AA39027AE40BC0022491B /* FileUploadPostData.swift in Sources */,
 				8B1A7C3527AA0F59004A17D1 /* ContentView.swift in Sources */,
 				8B1A7C3327AA0F59004A17D1 /* PocketCloudApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8B1A7C2C27AA0F59004A17D1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8B1A7C3627AA0F59004A17D1 /* ContentView.swift in Sources */,
-				8B1A7C3427AA0F59004A17D1 /* PocketCloudApp.swift in Sources */,
+				8BA43B9727B4B22D00F2561F /* URL+Extensions.swift in Sources */,
+				8B1A7C5F27AA2C08004A17D1 /* FileWebRouteCollection.swift in Sources */,
+				8BAC288027B0BCAD00E9CBCE /* FileView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +342,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -316,13 +350,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = getswifty.PocketCloud;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.PocketCloud;
 				PRODUCT_NAME = PocketCloud;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -338,6 +372,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -345,71 +380,19 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = getswifty.PocketCloud;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.PocketCloud;
 				PRODUCT_NAME = PocketCloud;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		8B1A7C3F27AA0F59004A17D1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = getswifty.PocketCloud;
-				PRODUCT_NAME = PocketCloud;
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		8B1A7C4027AA0F59004A17D1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = getswifty.PocketCloud;
-				PRODUCT_NAME = PocketCloud;
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -434,16 +417,39 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B1A7C3E27AA0F59004A17D1 /* Build configuration list for PBXNativeTarget "PocketCloud (macOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8B1A7C3F27AA0F59004A17D1 /* Debug */,
-				8B1A7C4027AA0F59004A17D1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8B3AA38927AAAC470022491B /* XCRemoteSwiftPackageReference "vapor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vapor/vapor.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		8B3AA38C27AAAC5C0022491B /* XCRemoteSwiftPackageReference "leaf" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vapor/leaf.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8B3AA38A27AAAC470022491B /* Vapor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B3AA38927AAAC470022491B /* XCRemoteSwiftPackageReference "vapor" */;
+			productName = Vapor;
+		};
+		8B3AA38D27AAAC5D0022491B /* Leaf */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B3AA38C27AAAC5C0022491B /* XCRemoteSwiftPackageReference "leaf" */;
+			productName = Leaf;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8B1A7C1E27AA0F58004A17D1 /* Project object */;
 }
